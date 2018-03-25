@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+    <link rel="stylesheet" type="text/css" href="./css/portfolio-style.css">
+    <title>Portfolio</title>
+    <script>
+        function hover() {
+            var btn = document.getElementById("btn");
+            btn.style.backgroundColor = "#1abc9c";
+            btn.style.color = "#ffffff";
+        }
+
+        function moveout() {
+            var btn = document.getElementById("btn");
+            btn.style.background = "#ffffff";
+            btn.style.color = "#1abc9c";
+        }
+    </script>
+</head>
+
+<body>
+
+</body>
+
+<div class="nav">
+    <div class="gk_box">
+        <p class="gk">GK.</p>
+    </div>
+    <div class="jump">
+           <a href="index.html"><li>HOME</li></a>  
+           <a href="About.html"><li>ABOUT</li></a> 
+           <a href="team.html"> <li>TEAM</li></a> 
+           <a href="service.html"><li>SERIVE</li></a> 
+           <a href="portfolio.html"><li>PROTFOLIO</li></a> 
+           <a href="contact.html"><li>CONTACT</li></a> 
+        </div>
+    <div style="clear:both;"></div>
+</div>
+<div id="heading">
+    <div id="title">PORTFOLIO</div>
+    <center>
+        <hr style="width: 95px;  margin-top: -4px; border-top:3px solid #1abc9c; z-index: 2;" />
+    </center>
+</div>
+<div id="text">
+    <p>Phasellus est dolor, aliquam pellentesque pretium vitae, suscipit sed justo. Sed aliquam magna nec justo interdum. et malesuada dui facilisis.</p>
+    <p>Morbi eu interdum massa. non posuere nunc.Proin ullamcorper magna sed tellus aliquam. eu viverra tortor porttitor.</p>
+    <p>Donec tempus. ligula sit amet</p>
+</div>
+
+<div id="pic">
+    <img src="images/pic1.png" />
+    <img src="images/pic2.png" />
+    <img src="images/pic3.png" />
+    <img src="images/pic4.png" />
+    <img src="images/pic5.png" />
+    <img src="images/pic6.png" />
+    <img src="images/pic7.png" />
+    <img src="images/pic8.png" />
+</div>
+<div id="btn" onmouseover="hover()" onmouseout="moveout()">
+    Maecenas vel
+</div>
+</html>

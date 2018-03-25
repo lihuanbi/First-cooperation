@@ -1,0 +1,84 @@
+* {
+	margin: 0 auto;
+	padding: 0;
+}
+
+body {
+	width: 100%;
+	min-width: 1600px;
+	height: 100%;
+	background: url(../img/background-home.jpg);
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+table {
+	width: 83%;
+	float: left;
+	font-family: "DengXian";
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	border-collapse: collapse;
+}
+
+th,
+td {
+	width: 13.75%;
+	min-width:160px;
+	min-height: 165px;
+	padding-top:2.5% ;
+	padding-bottom:2.5% ;
+	color: #FFFFFF;
+	font-size: 28px;
+	font-weight: bold;
+	text-align: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+a{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+
+.head{
+	padding-top:1% ;
+	padding-bottom:1% ;
+}
+
+.title{
+	padding-top:2% ;
+	padding-bottom:2.5% ;
+	text-align: left;
+	font-size: 67.5px;
+	font-weight: bold;
+}
+
+.title span{
+	color: #1abc9c;
+}
+
+.title-fu{
+	text-align: left;
+	margin-top: 2%;
+	color: #F5F5F5;
+	font-size: 33px;
+	font-weight: normal;
+}
+
+.man{
+	width: 50%;
+}
+ p{
+ 	margin-top: 15%;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+img{
+	width: 60%;
+}

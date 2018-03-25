@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="./css/about-style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>About</title>
+    <script>
+        function hover() {
+            var btn = document.getElementById("btn");
+            btn.style.backgroundColor = "#1abc9c";
+            btn.style.color = "#ffffff";
+        }
+
+        function moveout() {
+            var btn = document.getElementById("btn");
+            btn.style.background = "#ffffff";
+            btn.style.color = "#1abc9c";
+        }
+
+    </script>
+</head>
+
+<body>
+    <div class="nav">
+        <div class="gk_box">
+            <p class="gk" style="color: #FFFFFF;">GK.</p>
+        </div>
+        <div class="jump">
+           <a href="index.html"><li>HOME</li></a>  
+           <a href="About.html"><li>ABOUT</li></a> 
+           <a href="team.html"> <li>TEAM</li></a> 
+           <a href="service.html"><li>SERIVE</li></a> 
+           <a href="portfolio.html"><li>PROTFOLIO</li></a> 
+           <a href="contact.html"><li>CONTACT</li></a> 
+        </div>
+        <div style="clear:both;"></div>
+    </div>
+    <div id="heading">
+        <div id="title">ABOUT US</div>
+        <center>
+            <hr style="width: 95px;  margin-top: -2px; border-top:3px solid #1abc9c; z-index: 2;" />
+        </center>
+    </div>
+    <div id="content">
+        <img src="images/computer.png" />
+        <div id="skills">
+            <a style="font-size: 33px; color: #333333;margin-top: 0;padding-bottom: 15px;">OUR SKILLS</a>
+            <a>HTML 5</a>
+            <div id="html-bar">
+                <div id="bar1"> </div>
+            </div>
+            <a>CSS 3</a>
+            <div id="css-bar">
+                <div id="bar2"> </div>
+            </div>
+            <a>JAVASCRIPT</a>
+            <div id="js-bar">
+                <div id="bar3"> </div>
+            </div>
+            <a>PHOTOSHOP</a>
+            <div id="ps-bar">
+                <div id="bar4"> </div>
+            </div>
+            <a>ILLUSTRATOR</a>
+            <div id="ai-bar">
+                <div id="bar5"> </div>
+            </div>
+        </div>
+        <div id="text">
+            <p>Nam id nibh eu nulla elementum tincid unt. Donec pretium nisi vel fermentum </p>
+            <p>venenatis. Nunc lacinia dui in condimen tum dapibus. Praesent pharetra risus et </p>
+            <p>purus luctus vehicula. Ut bibendum velit nisl, vitae venenatis sapien </p>
+            <p>pellentesque non. Vestibulum rutrum, justo ac varius porta,lectus lorem </p>
+            <p>vestibulum neque, aliquam feugiat justo magna sit amet ligula. Ut purus</p>
+        </div>
+        <div id="btn" onmouseover="hover()" onmouseout="moveout()">
+            Maecenas vel
+        </div>
+    </div>
+</body>
+
+</html>

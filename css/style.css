@@ -1,0 +1,105 @@
+* {
+    font-family: DengXian;
+    margin: 0;
+    border: 0;
+}
+
+body {
+    min-width: 1600px;
+    width: 100%;
+}
+
+li {
+    float: left;
+    list-style: none;
+}
+
+input {
+    outline: none;
+}
+
+textarea {
+    outline: : none;
+}
+
+
+/*nav*/
+
+.nav {
+    position: relative;
+    width: 1600px;
+    height: 145px;
+}
+
+.gk_box {
+    position: absolute;
+    left: 0;
+   display: inline-block;
+}
+
+.gk {
+	padding-left: 160px;
+    line-height: 145px;
+    color: #1abc9c;
+    font-size: 33px;
+    font-weight: bold;
+}
+
+.jump {
+    position: absolute;
+    right: 0;
+    display: inline-block;
+    padding-left: 800px;
+    color: #1abc9c;
+    font-size: 28px;
+}
+
+.jump li {
+	line-height: 145px;
+	display: inline-block;
+    padding-left: 15px;
+}
+
+.jump li:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.jump a{
+	text-decoration: none;
+	color: #1abc9c;
+}
+
+
+/*title*/
+
+
+#heading {
+    width: 80%;
+    position:relative;
+	left:50%;
+	transform:translateY(-50%);
+	transform:translateX(-50%);
+	border-collapse: collapse;
+}
+
+#title {
+	width: 35%;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5%;
+    padding-bottom: 3%;
+    font-size:45px;
+    color: #1abc9c;
+    display: block;
+    font-family: "DengXian";
+    font-weight: bolder;
+    letter-spacing: 3px;
+    white-space:nowrap;
+    border-bottom: 1px solid #aaaaaa;
+}
+#title p{
+	white-space:nowrap;
+}
+

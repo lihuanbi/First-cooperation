@@ -1,0 +1,105 @@
+
+body {
+	zoom: 0.8;
+    background-image: url(../img/teamback.png);
+}
+
+
+/*nav*/
+
+.nav li {
+    color: white;
+}
+
+.nav p {
+    color: white;
+}
+
+
+/*title*/
+
+.title {
+    margin: 0 auto;
+    position: relative;
+    padding-top: 12px;
+    width: 1600px;
+}
+
+.title p {
+    color: white;
+    font-size: 67.5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.fg {
+    padding-top: 16px;
+    margin: 0 auto;
+    width: 360px;
+    text-align: center;
+    position: relative;
+}
+
+.g1 {
+    background-color: #1abc9c;
+    height: 1px;
+    width: 360px;
+}
+
+.g3 {
+    position: absolute;
+    left: 120px;
+    top: 15px;
+    background-color: #1abc9c;
+    height: 4px;
+    width: 108px;
+}
+
+
+.fg div {
+    background-color: white;
+}
+
+.text {
+      color: white;
+      padding: 36px;
+}
+
+.text a {
+    font-size: 28px;
+    text-align: center;
+}
+
+/*people*/
+
+.people {
+    width: 1600px;
+    margin: 0 auto;
+}
+
+.people img {
+    padding: 15px;
+    height: 300px;
+}
+
+.people div {
+    width: 350px;
+    padding: 15px;
+    display: inline-block;
+}
+
+.people p {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.people a {
+    display: block;
+    text-align: center;
+    width: 350px;
+    color: white;
+    font-weight: bold;
+    font-size: 33px;
+}

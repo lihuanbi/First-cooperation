@@ -1,0 +1,151 @@
+body{
+	zoom: 0.8;
+}
+
+/*title*/
+
+.title {
+    margin: 0 auto;
+    position: relative;
+    padding-top: 12px;
+    width: 1600px;
+}
+
+.title p {
+    color: #1abc9c;
+    font-size: 67.5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.fg {
+    padding-top: 16px;
+    margin: 0 auto;
+    width: 360px;
+    text-align: center;
+    position: relative;
+}
+
+.g1 {
+    background-color: #1abc9c;
+    height: 1px;
+    width: 360px;
+}
+
+.g3 {
+    position: absolute;
+    left: 120px;
+    top: 15px;
+    background-color: #1abc9c;
+    height: 4px;
+    width: 108px;
+}
+
+.text {
+    padding: 36px;
+}
+
+.title a {
+    font-size: 28px;
+    text-align: center;
+}
+
+/*centren*/
+
+.centren {
+    margin: 0 auto;
+    position: relative;
+    width: 1600px;
+}
+
+.centrenleft {
+    padding: 12px;
+    display: inline-block;
+}
+
+.input_left {
+    padding: 12px;
+}
+
+.your {
+    display: block;
+    width: 750px;
+    height: 70px;
+    padding: 5px;
+    background-color: #eee;
+    border: 1px;
+    border-radius: 47px;
+}
+
+.input_right {
+    padding-top: 24px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.message {
+    width: 700px;
+    height: 230px;
+    padding: 30px;
+    background-color: #eee;
+    border: 1px;
+    border-radius: 47px;
+}
+
+.button {
+    width: 300px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.button button {
+    width: 270px;
+    height: 86px;
+    background-color: white;
+    border: 5px solid;
+    border-color: #1abc9c;
+    border-radius: 36px;
+    font-size: 22px;
+    color: #1abc9c;
+}
+
+
+/*footer*/
+
+footer {
+    background-color: #eee;
+    height: 128px;
+}
+
+.foot {
+    width: 1600px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.footleft {
+    position: absolute;
+    left: 0;
+    margin-top: 56px;
+    display: inline-block;
+}
+
+.footleft p {
+    display: inline-block;
+    font-size: 28px;
+    font-weight: bold;
+    color: #b1b1b1;
+}
+
+.footright {
+    position: absolute;
+    margin-top: 56px;
+    right: 0;
+    display: inline-block;
+}
+
+.footright p {
+    display: inline-block;
+    font-size: 28px;
+    color: #b1b1b1;
+}
